@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,8 +29,8 @@
 <body class="font-lato">
     <main class="container mx-auto">
         <h1 class="text-4xl font-bold text-center py-24">Working Day Status Government and Non-Government Employee</h1>
-        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-x-4 item-center justify-center">
-        <!-- satarday card -->
+        <div class="flex justify-center items-center flex-wrap gap-4">
+        <!-- saturday card -->
         <div class="card w-96 bg-primary text-primary-content">
             <div class="card-body">
               <h2 class="card-title">Saturday</h2>
@@ -42,71 +42,19 @@
             </div>
           </div>
         <!-- sunday card -->
-        <div class="card w-96 bg-primary text-primary-content">
+        <div id="cardTwo" class="card w-96 bg-primary text-primary-content">
             <div class="card-body">
               <h2 class="card-title">Sunday</h2>
               <p>Do Government and None-Government employees have working days today?</p>
               <div class="flex justify-center item-center gap-2">
-                <button id="make-red" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Government</button>
-                <button id="make-green" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Non-Government</button>
+                <button id="make-orange" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Government</button>
+                <button id="make-yellow" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Non-Government</button>
               </div>
             </div>
           </div>
-        <!-- monday card -->
-        <div class="card w-96 bg-primary text-primary-content">
-            <div class="card-body">
-              <h2 class="card-title">Monday</h2>
-              <p>Do Government and None-Government employees have working days today?</p>
-              <div class="flex justify-center item-center gap-2">
-                <button id="make-red" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Government</button>
-                <button id="make-green" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Non-Government</button>
-              </div>
-            </div>
-          </div>
-        <!-- Tuesday card -->
-        <div class="card w-96 bg-primary text-primary-content">
-            <div class="card-body">
-              <h2 class="card-title">Tuesday</h2>
-              <p>Do Government and None-Government employees have working days today?</p>
-              <div class="flex justify-center item-center gap-2">
-                <button id="make-red" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Government</button>
-                <button id="make-green" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Non-Government</button>
-              </div>
-            </div>
-          </div>
-        <!-- wednesday card -->
-        <div class="card w-96 bg-primary text-primary-content">
-            <div class="card-body">
-              <h2 class="card-title">Wednesday</h2>
-              <p>Do Government and None-Government employees have working days today?</p>
-              <div class="flex justify-center item-center gap-2">
-                <button id="make-red" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Government</button>
-                <button id="make-green" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Non-Government</button>
-              </div>
-            </div>
-          </div>
-        <!-- thursday card -->
-        <div class="card w-96 bg-primary text-primary-content">
-            <div class="card-body">
-              <h2 class="card-title">Thursday</h2>
-              <p>Do Government and None-Government employees have working days today?</p>
-              <div class="flex justify-center item-center gap-2">
-                <button id="make-red" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Government</button>
-                <button id="make-green" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Non-Government</button>
-              </div>
-            </div>
-          </div>
-        <!-- friday card -->
-        <div class="card w-96 bg-primary text-primary-content">
-            <div class="card-body">
-              <h2 class="card-title">Friday</h2>
-              <p>Do Government and None-Government employees have working days today?</p>
-              <div class="flex justify-center item-center gap-2">
-                <button id="make-red" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Government</button>
-                <button id="make-green" class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">Non-Government</button>
-              </div>
-            </div>
-          </div>
+        
+        <div id="clear-btn" class="mx-auto text-center py-5">
+          <button class="px-4 py-3 rounded-md bg-[#008000] border-0 text-white">All Clear</button>
         </div>
     </main>
     <!-- connect JS -->
