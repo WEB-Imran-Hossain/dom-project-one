@@ -26,9 +26,39 @@ makeYellowButton.addEventListener("click", function () {
   cardTwo.style.backgroundColor = "#FFFF00";
 });
 
+// monday card
+// get the class ID of button
+const makePinkButton = document.getElementById("make-pink");
+const makeChartreuseButton = document.getElementById("make-chartreuse");
+const cardThreeBg = document.getElementById("cardThree");
+// get the specify card only
+makePinkButton.addEventListener("click", function () {
+  cardThree.style.backgroundColor = "#FFC0CB";
+});
+
+makeChartreuseButton.addEventListener("click", function () {
+  cardThree.style.backgroundColor = "#DFFF00";
+});
+
+// Tuesday card
+// get the class ID of button
+const makeTealButton = document.getElementById("make-teal");
+const makeAquaButton = document.getElementById("make-aqua");
+const cardFourBg = document.getElementById("cardFour");
+// get the specify card only
+makeTealButton.addEventListener("click", function () {
+  cardFour.style.backgroundColor = "#008080";
+});
+
+makeAquaButton.addEventListener("click", function () {
+  cardFour.style.backgroundColor = "#00FFFF";
+});
+
 // reset button
 const clearButton = document.getElementById("clear-btn");
 clearButton.addEventListener("click", function () {
   card.style.backgroundColor = "";
   cardTwo.style.backgroundColor = "";
+  cardThree.style.backgroundColor = "";
+  cardFour.style.backgroundColor = "";
 });
